@@ -8,7 +8,7 @@ public class MenssagemController {
 
 	@GetMapping("/")
 	public String mensssagem() {
- 		return "<htnl> Welcome </html>";
+ 		return "Bem Vindo";
 				
 				
 	}
